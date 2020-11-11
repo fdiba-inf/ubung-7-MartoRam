@@ -23,13 +23,13 @@ public class Triangle {
             for (int j=start;j<=end;j++)
             {
                 bull=bull+j+" ";
-                System.out.println(bull);
+                System.out.println(bull.substring(0,bull.length()-1));
             }
             for (int k=start;k<end;k++)
             {
                 int i=2;
                 bull=bull.substring(0, bull.length()-i);
-                System.out.println(bull);
+                System.out.println(bull.substring(0, bull.length()-1));
                 i++;
             }
 
